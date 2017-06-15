@@ -1,0 +1,22 @@
+{
+  "name": "ptt",
+  "version": "1.0.0",
+  "description": "Push to Talk api ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.1.17/serverApi/PTT.git"
+  },
+  "author": "Shahin Fasihi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "mongoose": "^4.10.4",
+    "socket.io": "^2.0.1"
+  }
+}
